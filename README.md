@@ -42,3 +42,7 @@ The file where the MySQL operations and where the API calls will be performed.
 
 ## templates/index.html
 The html style for the webpage.
+
+## database.py
+
+The file where the database is initiated.
