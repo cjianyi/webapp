@@ -15,24 +15,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="{{url_for('main')}}"> Patient Search </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home </a>
+              
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Search</a>
+              <a class="nav-link" href="{{url_for('search')}}">Search</a>
             </li>
             
            
           </ul>
         </div>
       </nav>
-
+      <style>
+        h2 {text-align: center;}
+      </style>
+      <br >
+      <br >
+    <h2> Welcome to my coding assignment webpage. We will use http://hapi.fhir.org/ to call the API and retrieve the data.</h2>
       
   </body>
 </html>
