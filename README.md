@@ -1,5 +1,8 @@
 # SeamlessMD web application
 
+This web application was built using Python and the Flask framework. The project also incorporated a database using MySQL and python requests to make API calls.
+
+
 ## First Time Setup:
 <br >
 
