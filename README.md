@@ -18,6 +18,13 @@
     pip install requests
     ```
 
+4. #### Install mysql
+    
+5. #### Start mysql server
+    ```
+    mysql -u root -p
+    ```
+
 ## To run program:
 <br >
 
