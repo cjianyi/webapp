@@ -10,12 +10,14 @@ app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'patients'
 mysql = MySQL(app)
 
-cursor = mysql.connection.cursor()
- 
+
+conn = mysql.connect()
+cur = conn.cursor()
 #Executing SQL Statements
-cursor.execute(''' CREATE TABLE patients (id INTEGER, name VARCAHR(255), dob DATE) ''')
-mysql.connection.commit()
-cursor.close()
+cur.execute(''' CREATE TABLE patients (id INTEGER, name VARCHAR(255)
+ ''')
+conn.commit()
+cur.close()
  
 
 @app.route("/")
