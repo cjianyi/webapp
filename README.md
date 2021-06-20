@@ -1,1 +1,37 @@
-# webapp
+# SeamlessMD web application
+
+## First Time Setup:
+<br >
+
+1.  ####  Install Flask-MySQL package.
+    ```
+    pip install flask-mysql
+    ```
+
+
+2. #### Install Flask
+    ```
+    pip install Flask
+    ```
+3. #### Install Requests
+    ```
+    pip install requests
+    ```
+
+## To run program:
+<br >
+
+    
+    python app.py
+    
+## File summary:
+<br >
+
+## app.py
+The file is where the web server will be started.
+
+## request.py
+The file where the MySQL operations and where the API calls will be performed.
+
+## templates/index.html
+The html style for the webpage.
