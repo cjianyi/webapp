@@ -22,6 +22,7 @@ def search():
         cur = conn.cursor()
         #Executing SQL Statements
         cur.execute(''' SELECT count(*) FROM patients''')
+        cur.execute(''' SELECT * FROM patients''')
         conn.commit()
         cur.close()
         return render_template('search.html')
